@@ -1,6 +1,6 @@
 # **Tomato Plant Disease Classification**
 
-![Project Logo or Sample Image](image.png)  
+![Project Logo or Sample Image](image-1.png)
 *A deep learning project utilizing Convolutional Neural Networks (CNNs) for identifying diseases in tomato plants using a Kaggle dataset.*
 
 
