@@ -4,6 +4,10 @@ import uvicorn
 import numpy as np
 from io import BytesIO
 from PIL import Image
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 import tensorflow as tf
 
 app = FastAPI()
