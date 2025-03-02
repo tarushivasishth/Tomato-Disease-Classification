@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-MODEL = tf.keras.models.load_model(r"C:\Users\tarus\deep_learning_codebasics\tomato_classification\models\3.h5")
+MODEL = tf.keras.models.load_model("./models/3.h5")
 
 # Class names for prediction
 CLASS_NAMES = [
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     import os
     import sys
     sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 10000))
 
     uvicorn.run(app, host="0.0.0.0", port=port)
     # uvicorn.run(app, host="localhost", port=5000)
