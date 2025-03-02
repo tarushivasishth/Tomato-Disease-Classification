@@ -54,8 +54,8 @@ async def predict(file: UploadFile = File(...)):
         'confidence': float(confidence)
     }
 
-if __name__ == "__main__":
-    import os
-    import sys
-    sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-    uvicorn.run(app, host="localhost", port=5000)
+# if __name__ == "__main__":
+#     import os
+#     import sys
+#     sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+#     uvicorn.run(app, host="localhost", port=5000)
