@@ -1,9 +1,0 @@
-tensorflow==2.5.0
-fastapi
-uvicorn
-python-multipart
-pillow
-tensorflow-serving-api==2.5.0
-matplotlib
-numpy
-docker run -t --rm -p 8501:8501 -v /c/Users/tarus/deep_learning_codebasics/tomato_classification/models:/models -v /c/Users/tarus/deep_learning_codebasics/tomato_classification/models.config:/models.config tensorflow/serving --rest_api_port=8501 --model_config_file=/models.config
