@@ -1,0 +1,47 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# Virtual environments
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TensorFlow/Keras Model Files
+*.h5
+*.pb
+saved_model/
+logs/
+
+# Dataset and Large Files
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.hdf5
+
+# IDE-related
+.vscode/
+*.swp
+*.swo
+*.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# FastAPI-specific
+instance/
+*.db
+*.sqlite3
+*.log
