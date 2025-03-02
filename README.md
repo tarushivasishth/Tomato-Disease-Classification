@@ -8,9 +8,9 @@
 ## **Table of Contents**
 1. [About the Problem](#about-the-problem)  
 2. [Dataset](#dataset)  
-3. [Tools and Technologies](#tools-and-technologies)  
-4. [Installation](#installation)  
-5. [Deployment](#deployment)  
+3. [Tools and Technologies](#tools-and-technologies)
+4. [Deployment](#deployment)  
+5. [Installation](#installation)    
 
 ---
 
@@ -40,6 +40,25 @@ This project uses **Convolutional Neural Networks (CNNs)**, a state-of-the-art d
 - **Other Tools**: Kaggle (dataset), FastAPI, Docker (deployment)
 
 ---
+## **Deployment**
+
+### **Frontend Deployment**
+
+**URL:** [Tomato Disease Classification Frontend](https://tarushivasishth.github.io/Tomato-Disease-Classification-frontend/)
+
+**Hosting Platform:** GitHub Pages
+
+**Description:** The frontend allows users to upload tomato leaf images and receive disease classification results.
+
+## **Backend Deployment**
+
+**URL:** [FastAPI Backend] (https://tomato-disease-classification-2.onrender.com/predict)
+
+**Hosting Platform:** Render
+
+**Description:** The backend processes image uploads and returns disease classification predictions using a trained deep learning model.
+
+---
 
 ## **Installation**
 ### **Clone the Repository**
@@ -49,20 +68,3 @@ cd tomato_classification
 
 ---
 
-## **Deployment**
-
-### **Frontend Deployment**
-
-**URL:** [Tomato Disease Classification Frontend](https://tarushivasishth.github.io/Tomato-Disease-Classification-frontend/)
-
-**Hosting Platform:** GitHub Pages
-
-**Description: **The frontend allows users to upload tomato leaf images and receive disease classification results.
-
-## **Backend Deployment**
-
-**URL:** [FastAPI Backend] (https://tomato-disease-classification-2.onrender.com/predict)
-
-**Hosting Platform:** Render
-
-**Description:** The backend processes image uploads and returns disease classification predictions using a trained deep learning model.
