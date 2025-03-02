@@ -47,9 +47,11 @@ This project uses **Convolutional Neural Networks (CNNs)**, a state-of-the-art d
 git clone https://github.com/tarushivasishth/Data-Science/tree/main/tomato_classification
 cd tomato_classification
 
+---
+
 ## **Deployment**
 
-## **Frontend Deployment**
+### **Frontend Deployment**
 
 **URL:** [Tomato Disease Classification Frontend](https://tarushivasishth.github.io/Tomato-Disease-Classification-frontend/)
 
