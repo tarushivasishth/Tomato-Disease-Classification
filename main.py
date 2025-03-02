@@ -16,13 +16,14 @@ origins = [
     "http://localhost",  # For your frontend URL
     "http://localhost:3000",  # If you're using React development server
     "http://127.0.0.1:5500",  # Allow static HTML from port 5500
-    "https://tarushivasishth.github.io/Tomato-Disease-Classification-frontend/" # github pages url
+    "https://tarushivasishth.github.io" # github pages url
     "https://tomato-disease-classification-2.onrender.com" # render backend url
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,  # Specify allowed origins
+    # allow_origins=origins,  # Specify allowed origins
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
