@@ -11,7 +11,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
     document.getElementById('confidence').innerText = 'Confidence: Loading...';
 
     try {
-        const response = await fetch('http://localhost:5000/predict', {
+        const response = await fetch('https://tomato-disease-classification-2.onrender.com/predict', {
             method: 'POST',
             body: formData,
         });
